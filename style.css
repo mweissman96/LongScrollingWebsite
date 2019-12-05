@@ -7,7 +7,7 @@
 .list {
   background-color: lightgray;
   width: 480px;
-  height: 3418px;
+  height: 11968px; // originally 3418px 11968
   position: absolute;
   margin-left: 100px;
   overflow-y: hidden;
@@ -24,6 +24,7 @@
   width: 1140px;
   height: 100px;
   margin-left: 580px;
+  margin-top: 0px;
   position: fixed;
   overflow-y: hidden;
 }
@@ -47,65 +48,65 @@
 }
 
 .event1 {
-  margin-top: 2px;
+  margin-top: 8px;
 }
 
 .event2 {
-  margin-top: 302px;
+  margin-top: 1208px;
 }
 
 .event3 {
-  margin-top: 524px;
+  margin-top: 2096px;
 }
 
 .event4 {
-  margin-top: 670px;
+  margin-top: 2680px;
 }
 
 .event5 {
-  margin-top: 782px;
+  margin-top: 3128px;
 }
 
 .event6 {
-  margin-top: 952px;
+  margin-top: 3808px;
 }
 
 .event7 {
-  margin-top: 1090px;
+  margin-top: 4360px;
 }
 
 .event8 {
-  margin-top: 1212px;
+  margin-top: 4848px;
 }
 
 .event9 {
-  margin-top: 1812px;
+  margin-top: 7248px;
 }
 
 .event10 {
-  margin-top: 1916px;
+  margin-top: 7664px;
 }
 
 .event11 {
-  margin-top: 1994px;
+  margin-top: 7976px;
 }
 
 .event12 {
-  margin-top: 2150px;
+  margin-top: 8600px;
 }
 
 .event13 {
-  margin-top: 2374px;
+  margin-top: 9496px;
 }
 
 .event14 {
-  margin-top: 2544px;
+  margin-top: 10176px;
 }
 
 .event15 {
-  margin-top: 2732px;
+  margin-top: 10928px;
 }
 
 .event16 {
-  margin-top: 2850px;
+  margin-top: 11400px;
 }
