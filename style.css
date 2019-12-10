@@ -1,3 +1,6 @@
+/* https://www.geeksforgeeks.org/hide-scroll-bar-but-while-still-being-able-to-scroll-using-css/ */
+*::-webkit-scrollbar { width: 0 !important }
+
 * {
   padding: 0px;
   margin: 0px;
@@ -6,6 +9,7 @@
 
 main {
   background-color: #222;
+  overflow-y: hidden;
 }
 
 .list {
@@ -15,14 +19,19 @@ main {
   position: absolute;
   margin-left: 100px;
   overflow-y: hidden;
-//  filter:blur(5px);
+  /*filter:blur(5px);*/
   padding-top: 510px;
+  overflow-y: hidden;
 }
 
 .list h2 {
   position: absolute;
   color: #ccc;
-  margin-left: 20px;
+  width: 480px;
+  text-align: center;
+  margin-left: 0px;
+  /*margin-left: 20px;*/
+  overflow-y: hidden;
 }
 
 .listOverlay {
@@ -37,7 +46,7 @@ main {
 }
 
 .era {
-  background-color: pink;
+  background-color: #cccccc;
   width: 1140px;
   height: 100px;
   margin-left: 580px;
@@ -53,18 +62,21 @@ main {
 }
 
 .map {
-  background-color: tan;
+  background-color: #aaaaaa;
   width: 1140px;
   height: 720px;
   margin-left: 580px;
   margin-top: -12378px;
   position: fixed;
+  overflow-y: hidden;
 }
 
 .map h2 {
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: -25px;
+  font-size: 36px;
+  overflow-y: hidden;
 }
 
 .map div {
@@ -76,19 +88,23 @@ main {
   width: 1098px;
   height: 638px;
   background-color: black;
+  overflow-y: hidden;
 }
 
 .info {
-  background-color: lightblue;
+  background-color: #cccccc;
   width: 1140px;
   height: 260px;
   margin-left: 580px;
   margin-top: -11658px;
   position: fixed;
+  overflow-y: hidden;
 }
 
 .info p {
-
+  padding: 35px;
+  font-size: 40px;
+  overflow-y: hidden;
 }
 
 .event1 {
